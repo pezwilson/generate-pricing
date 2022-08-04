@@ -1,4 +1,4 @@
-const calculatePricing = require('../calculate-pricing');
+const calculatePricing = require('./calculate-pricing');
 
 const input1 = 
 `2 book at 12.49
