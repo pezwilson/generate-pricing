@@ -72,7 +72,7 @@ module.exports = lineItems => {
   let output = ''
   let salesTaxes = 0
   let totalPrice = 0
-  for (i=0; i<inputArr.length; i++) {
+  for (let i=0; i<inputArr.length; i++) {
     const lineItemInfo = generateLineItemInfo(inputArr[i])
     output += lineItemInfo['lineItem'] + '\n'
     salesTaxes += parseFloat(lineItemInfo['salesTax'])
