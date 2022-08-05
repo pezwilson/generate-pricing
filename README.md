@@ -33,7 +33,9 @@ To install the application:
 
 ```npm install```
 
-Run the application in any Node.js runtime environment via the index.js file. 
+To run the default example, cd to the src directory and run:
+
+```node index.js```
 
 To run the test suite, enter:
 
