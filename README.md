@@ -27,7 +27,11 @@ Each line item will have a sales tax of 10% unless it's for books, food, or medi
 
 Sales tax is generated on a per unit basis and rounded up to the nearest $.05.
 
-# Usage
+## Usage
+
+To install the application:
+
+```npm install```
 
 Run the application in any Node.js runtime environment via the index.js file. 
 
